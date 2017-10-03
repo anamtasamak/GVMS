@@ -21,6 +21,7 @@
 | game   | varchar(40) | NO   |     | NULL    |       |
 | teamid | int(11)     | YES  |     | NULL    |       |
 +--------+-------------+------+-----+---------+-------+
+If the game is not a team game, then teamid=NULL
 
 3. team
 
@@ -70,6 +71,7 @@
 | price | int(11)     | NO   |     | NULL    |                |
 | team  | int(11)     | NO   |     | NULL    |                |
 +-------+-------------+------+-----+---------+----------------+
+if game is a team game, then column team=0
 
 8. locations
 
